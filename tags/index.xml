@@ -6,15 +6,24 @@
     <description>Recent content in Tags on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Jan 2020 17:11:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 15 Sep 2018 17:11:12 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>dubbo</title>
+      <link>https://corso.netlify.com/tags/dubbo/</link>
+      <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/dubbo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>java</title>
       <link>https://corso.netlify.com/tags/java/</link>
-      <pubDate>Wed, 15 Jan 2020 17:11:12 +0800</pubDate>
+      <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
       
       <guid>https://corso.netlify.com/tags/java/</guid>
       <description></description>
@@ -23,9 +32,27 @@
     <item>
       <title>spring</title>
       <link>https://corso.netlify.com/tags/spring/</link>
-      <pubDate>Wed, 15 Jan 2020 17:11:12 +0800</pubDate>
+      <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
       
       <guid>https://corso.netlify.com/tags/spring/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>javaCV</title>
+      <link>https://corso.netlify.com/tags/javacv/</link>
+      <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/javacv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>openCV</title>
+      <link>https://corso.netlify.com/tags/opencv/</link>
+      <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/opencv/</guid>
       <description></description>
     </item>
     

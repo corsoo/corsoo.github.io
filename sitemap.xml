@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://corso.netlify.com/about/</loc>
-    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <lastmod>2019-01-16T21:38:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,56 +17,77 @@
   
   <url>
     <loc>https://corso.netlify.com/categories/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/dubbo/</loc>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/dubbo-confg1/</loc>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/tags/java/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/post/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://corso.netlify.com/post/second/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/tags/spring/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/tags/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://corso.netlify.com/post/third/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-01-15T17:11:12+08:00</lastmod>
+    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/javacv/</loc>
+    <lastmod>2018-05-21T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/opencv/</loc>
+    <lastmod>2018-05-21T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/opencv/</loc>
+    <lastmod>2018-05-21T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
