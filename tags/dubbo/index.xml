@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dubbo on Corso&#39;s blog</title>
+    <link>https://corso.netlify.com/tags/dubbo/</link>
+    <description>Recent content in dubbo on Corso&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 15 Sep 2018 17:11:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://corso.netlify.com/tags/dubbo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>dubbo常用配置示例</title>
+      <link>https://corso.netlify.com/post/dubbo-confg1/</link>
+      <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/dubbo-confg1/</guid>
+      <description>dubbo常用配置 持续更新
+url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
+ provider.xml
+1 2 3 4  &amp;lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; /&amp;gt; &amp;lt;!-- 使用dubbo协议在20880端口暴露服务 --&amp;gt; &amp;lt;dubbo:protocol name=&amp;#34;dubbo&amp;#34; port=&amp;#34;20880&amp;#34; /&amp;gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &amp;lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; register=&amp;#34;false&amp;#34;/&amp;gt; &amp;lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&amp;gt; &amp;lt;!-- url 直连dubbo服务不经过注册中心 --&amp;gt; &amp;lt;dubbo:reference id=&amp;#34;demoService&amp;#34; interface=&amp;#34;com.dubbo.api.DemoService&amp;#34; url=&amp;#34;dubbo://localhost:20880&amp;#34;/&amp;gt;   </description>
+    </item>
+    
+  </channel>
+</rss>
