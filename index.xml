@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Corso on Corso&#39;s blog</title>
+    <title>Home on Corso&#39;s blog</title>
     <link>https://corso.netlify.com/</link>
-    <description>Recent content in Corso on Corso&#39;s blog</description>
+    <description>Recent content in Home on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 16 Jan 2020 02:09:15 +0000</lastBuildDate>
@@ -14,7 +14,7 @@
     <item>
       <title>关于</title>
       <link>https://corso.netlify.com/about/</link>
-      <pubDate>Wed, 16 Jan 2019 21:38:52 +0800</pubDate>
+      <pubDate>Thu, 16 Jan 2020 21:38:52 +0800</pubDate>
       
       <guid>https://corso.netlify.com/about/</guid>
       
@@ -81,53 +81,116 @@
     </item>
     
     <item>
-      <title>javacv 获取视频截图</title>
+      <title>javaCV 获取视频截图</title>
       <link>https://corso.netlify.com/post/opencv/</link>
       <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
       
       <guid>https://corso.netlify.com/post/opencv/</guid>
       
-        <description>&lt;p&gt;获取视频截图&amp;ndash;javacv
-之前在相关文章评论过，有人问我当中遇到的问题，所以写出来&lt;/p&gt;
+        <description>&lt;h1 id=&#34;获取视频截图--javacv&#34;&gt;获取视频截图&amp;ndash;javacv&lt;/h1&gt;
+&lt;p&gt;之前在相关文章评论过，有人问我当中遇到的问题，所以写出来&lt;/p&gt;
 &lt;p&gt;maven依赖&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;代码很多，我也是网上找的，这里就不粘出来了，主要记录一下问题&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&amp;lt;dependency&amp;gt;			
+  &amp;lt;groupId&amp;gt;org.bytedeco&amp;lt;/groupId&amp;gt;			
+  &amp;lt;artifactId&amp;gt;javacv&amp;lt;/artifactId&amp;gt;			
+  &amp;lt;version&amp;gt;0.8&amp;lt;/version&amp;gt;
+&amp;lt;/dependency&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;代码很多，我也是网上找的，这里就不粘出来了，主要记录一下问题&lt;/p&gt;
 &lt;p&gt;代码在windows环境下完全没用问题，如果是在win环境下编译的放到liunx下跑会报错：&lt;/p&gt;
-&lt;p&gt;java.lang.NoClassDefFoundError: Could not initialize class org.bytedeco.javacpp.avutil
-at java.lang.Class.forName0(Native Method)
-at java.lang.Class.forName(Class.java:270)
-at org.bytedeco.javacpp.Loader.load(Loader.java:390)
-at org.bytedeco.javacpp.Loader.load(Loader.java:358)
-at org.bytedeco.javacpp.avformat$AVFormatContext.&lt;!-- raw HTML omitted --&gt;(avformat.java:2539)
-at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:383)
-at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:377)
-at com.example.Application.convert(Application.java:53)
-at com.example.Application.run(Application.java:103)
-at org.springframework.boot.SpringApplication.runCommandLineRunners(SpringApplication.java:674)
-at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:693)
-at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
-at org.springframework.boot.SpringApplication.run(SpringApplication.java:969)
-at org.springframework.boot.SpringApplication.run(SpringApplication.java:958)
-at com.example.Application.main(Application.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:606)
-at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
-at java.lang.Thread.run(Thread.java:745)&lt;/p&gt;
-&lt;p&gt;仔细观察后，pom引的是win下的jar，所以需在liunx下编译，之后依然报错&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;11
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;12
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;13
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;14
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;15
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;16
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;17
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;18
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;19
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;20
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;21
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;java.lang.NoClassDefFoundError: Could not initialize class org.bytedeco.javacpp.avutil
+    at java.lang.Class.forName0(Native Method)
+    at java.lang.Class.forName(Class.java:270)
+    at org.bytedeco.javacpp.Loader.load(Loader.java:390)
+    at org.bytedeco.javacpp.Loader.load(Loader.java:358)
+    at org.bytedeco.javacpp.avformat$AVFormatContext.&amp;lt;clinit&amp;gt;(avformat.java:2539)
+    at org.bytedeco.javacv.FFmpegFrameGrabber.startUnsafe(FFmpegFrameGrabber.java:383)
+    at org.bytedeco.javacv.FFmpegFrameGrabber.start(FFmpegFrameGrabber.java:377)
+    at com.example.Application.convert(Application.java:53)
+    at com.example.Application.run(Application.java:103)
+    at org.springframework.boot.SpringApplication.runCommandLineRunners(SpringApplication.java:674)
+    at org.springframework.boot.SpringApplication.afterRefresh(SpringApplication.java:693)
+    at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+    at org.springframework.boot.SpringApplication.run(SpringApplication.java:969)
+    at org.springframework.boot.SpringApplication.run(SpringApplication.java:958)
+    at com.example.Application.main(Application.java:28)
+    at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+    at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke(Method.java:606)
+    at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:53)
+    at java.lang.Thread.run(Thread.java:745)
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;仔细观察后，pom引的是win下的jar，所以需在liunx下编译，之后依然报错&lt;/p&gt;
 &lt;p&gt;仔细发现每次重启项目后第一次错误信息是：&lt;/p&gt;
-&lt;p&gt;java.lang.UnsatisfiedLinkError: no jniavdevice in java.library.path
-at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1867) ~[?:1.8.0_144]
-at java.lang.Runtime.loadLibrary0(Runtime.java:870) ~[?:1.8.0_144]
-&amp;hellip;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;java.lang.UnsatisfiedLinkError: no jniavdevice in java.library.path
+	at java.lang.ClassLoader.loadLibrary(ClassLoader.java:1867) ~[?:1.8.0_144]
+	at java.lang.Runtime.loadLibrary0(Runtime.java:870) ~[?:1.8.0_144]
+...
 Caused by: java.lang.UnsatisfiedLinkError: /tmp/javacpp777320859500247/[图片]libjniavdevice.so: [图片]libXv.so.1: cannot open shared object file: No such file or directory
-而第二次之后错误信息才是&lt;/p&gt;
-&lt;p&gt;java.lang.NoClassDefFoundError
-应该是第一次启动需要读取加载环境，而我环境缺少相应类库，根据错误信息可以发现是我liunx环境问题，缺少libXv.so.1这个文件，网上搜一下，安装了即可&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;而第二次之后错误信息才是&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;java.lang.NoClassDefFoundError
+&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;应该是第一次启动需要读取加载环境，而我环境缺少相应类库，根据错误信息可以发现是我liunx环境问题，缺少libXv.so.1这个文件，网上搜一下，安装了即可&lt;/p&gt;
 &lt;p&gt;如果还有问题看一下jvm配置，线程堆的大小   -Xss256k&lt;/p&gt;
 &lt;p&gt;重新启动，即可成功！&lt;/p&gt;
-&lt;p&gt;这个是截取视频的代码原作者：点击打开链接&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这个是截取视频的代码原作者：&lt;a href=&#34;https://blog.csdn.net/syz_mumu/article/details/77203247&#34;&gt;点击打开链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
       
     </item>
