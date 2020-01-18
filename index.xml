@@ -85,7 +85,6 @@
     </item>
     
     <item>
-<<<<<<< HEAD
       <title>javaBean拷贝 --Orika简单使用</title>
       <link>https://corso.netlify.com/post/orika/</link>
       <pubDate>Tue, 26 Jun 2018 17:54:16 +0800</pubDate>
@@ -238,8 +237,6 @@ public class B {
     </item>
     
     <item>
-=======
->>>>>>> origin/master
       <title>javaCV 获取视频截图</title>
       <link>https://corso.netlify.com/post/opencv/</link>
       <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
@@ -350,7 +347,6 @@ Caused by: java.lang.UnsatisfiedLinkError: /tmp/javacpp777320859500247/[图片]l
 &lt;blockquote&gt;
 &lt;p&gt;这个是截取视频的代码原作者：&lt;a href=&#34;https://blog.csdn.net/syz_mumu/article/details/77203247&#34;&gt;点击打开链接&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-<<<<<<< HEAD
 </description>
       
     </item>
@@ -721,8 +717,6 @@ Caused by: java.lang.UnsatisfiedLinkError: /tmp/javacpp777320859500247/[图片]l
 &lt;p&gt;启动consumer:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://corso.netlify.com/img/dubbo/dubbo-demo-4.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;成功！完！&lt;/p&gt;
-=======
->>>>>>> origin/master
 </description>
       
     </item>
