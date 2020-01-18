@@ -3,7 +3,7 @@
   
   <url>
     <loc>https://corso.netlify.com/about/</loc>
-    <lastmod>2019-01-16T21:38:52+08:00</lastmod>
+    <lastmod>2020-01-16T21:38:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,21 +37,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/java/</loc>
-    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://corso.netlify.com/post/</loc>
-    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://corso.netlify.com/tags/spring/</loc>
     <lastmod>2018-09-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -72,6 +58,20 @@
   </url>
   
   <url>
+    <loc>https://corso.netlify.com/tags/java/</loc>
+    <lastmod>2018-06-26T17:54:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/orika/</loc>
+    <lastmod>2018-06-26T17:54:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://corso.netlify.com/tags/javacv/</loc>
     <lastmod>2018-05-21T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -86,8 +86,8 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/opencv/</loc>
-    <lastmod>2018-05-21T17:11:12+08:00</lastmod>
+    <loc>https://corso.netlify.com/post/dubbo-demo/</loc>
+    <lastmod>2018-05-19T12:31:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
