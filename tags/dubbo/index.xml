@@ -20,8 +20,23 @@
       <description>dubbo常用配置 持续更新
 url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
  provider.xml
-1 2 3 4  &amp;lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; /&amp;gt; &amp;lt;!-- 使用dubbo协议在20880端口暴露服务 --&amp;gt; &amp;lt;dubbo:protocol name=&amp;#34;dubbo&amp;#34; port=&amp;#34;20880&amp;#34; /&amp;gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
-1 2 3 4 5  &amp;lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; register=&amp;#34;false&amp;#34;/&amp;gt; &amp;lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&amp;gt; &amp;lt;!-- url 直连dubbo服务不经过注册中心 --&amp;gt; &amp;lt;dubbo:reference id=&amp;#34;demoService&amp;#34; interface=&amp;#34;com.dubbo.api.DemoService&amp;#34; url=&amp;#34;dubbo://localhost:20880&amp;#34;/&amp;gt;   </description>
+1 2 3 4  &amp;lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&amp;gt;&amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; /&amp;gt;&amp;lt;!--使用dubbo协议在20880端口暴露服务 --&amp;gt;&amp;lt;dubbo:protocol name=&amp;#34;dubbo&amp;#34; port=&amp;#34;20880&amp;#34; /&amp;gt;  在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &amp;lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&amp;gt;&amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; register=&amp;#34;false&amp;#34;/&amp;gt;&amp;lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&amp;gt;&amp;lt;!--url 直连dubbo服务不经过注册中心 --&amp;gt;&amp;lt;dubbo:reference id=&amp;#34;demoService&amp;#34; interface=&amp;#34;com.dubbo.api.DemoService&amp;#34; url=&amp;#34;dubbo://localhost:20880&amp;#34;/&amp;gt;  </description>
+    </item>
+    
+    <item>
+      <title>Dubbo Demo</title>
+      <link>https://corso.netlify.com/post/dubbo-demo/</link>
+      <pubDate>Sat, 19 May 2018 12:31:39 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/dubbo-demo/</guid>
+      <description>dubboDemo示例 dubbo入门示例，仅是个人日常学习。详情见：dubbo.io
+直奔主题，只是简单入门，开发工具IDEA
+工程结构：
+com-dubbo为父级，pom.xml主要依赖，还有spring相关依赖
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22  &amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;org.apache.zookeeper&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;zookeeper&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;3.4.9&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;!--dubbo --&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;com.alibaba&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;dubbo&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;2.5.3&amp;lt;/version&amp;gt;&amp;lt;exclusions&amp;gt;&amp;lt;exclusion&amp;gt;&amp;lt;groupId&amp;gt;org.springframework&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;spring&amp;lt;/artifactId&amp;gt;&amp;lt;/exclusion&amp;gt;&amp;lt;/exclusions&amp;gt;&amp;lt;/dependency&amp;gt;&amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;com.101tec&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;zkclient&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;0.10&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;  主要分为接口（dubbo-api），接口实现也称提供者（dubbo-provider），消费方（dubbo-consumer）
+dubbo-api主要提供暴露给外部的接口，不需关注实现 pom.xml
+1 2 3 4 5 6 7 8 9  &amp;lt;parent&amp;gt;&amp;lt;artifactId&amp;gt;com-dubbo&amp;lt;/artifactId&amp;gt;&amp;lt;groupId&amp;gt;com.dubbo&amp;lt;/groupId&amp;gt;&amp;lt;version&amp;gt;1.0-SNAPSHOT&amp;lt;/version&amp;gt;&amp;lt;/parent&amp;gt;&amp;lt;modelVersion&amp;gt;4.</description>
     </item>
     
   </channel>

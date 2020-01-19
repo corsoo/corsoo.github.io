@@ -26,8 +26,8 @@
   <meta name="description" content="dubbo常用配置 持续更新
 url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
  provider.xml
-1 2 3 4  &amp;lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; /&amp;gt; &amp;lt;!-- 使用dubbo协议在20880端口暴露服务 --&amp;gt; &amp;lt;dubbo:protocol name=&amp;#34;dubbo&amp;#34; port=&amp;#34;20880&amp;#34; /&amp;gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
-1 2 3 4 5  &amp;lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&amp;gt; &amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; register=&amp;#34;false&amp;#34;/&amp;gt; &amp;lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&amp;gt; &amp;lt;!-- url 直连dubbo服务不经过注册中心 --&amp;gt; &amp;lt;dubbo:reference id=&amp;#34;demoService&amp;#34; interface=&amp;#34;com.dubbo.api.DemoService&amp;#34; url=&amp;#34;dubbo://localhost:20880&amp;#34;/&amp;gt;   " />
+1 2 3 4  &amp;lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&amp;gt;&amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; /&amp;gt;&amp;lt;!--使用dubbo协议在20880端口暴露服务 --&amp;gt;&amp;lt;dubbo:protocol name=&amp;#34;dubbo&amp;#34; port=&amp;#34;20880&amp;#34; /&amp;gt;  在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &amp;lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&amp;gt;&amp;lt;dubbo:registry address=&amp;#34;zookeeper://localhost:2181&amp;#34; register=&amp;#34;false&amp;#34;/&amp;gt;&amp;lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&amp;gt;&amp;lt;!--url 直连dubbo服务不经过注册中心 --&amp;gt;&amp;lt;dubbo:reference id=&amp;#34;demoService&amp;#34; interface=&amp;#34;com.dubbo.api.DemoService&amp;#34; url=&amp;#34;dubbo://localhost:20880&amp;#34;/&amp;gt;  " />
 
   <meta name="keywords" content="Java, Spring, IT, 后端, 开发" />
 
@@ -69,8 +69,8 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 <meta property="og:description" content="dubbo常用配置 持续更新
 url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
  provider.xml
-1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt; &lt;!-- 使用dubbo协议在20880端口暴露服务 --&gt; &lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
-1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt; &lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt; &lt;!-- url 直连dubbo服务不经过注册中心 --&gt; &lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;   " />
+1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt;&lt;!--使用dubbo协议在20880端口暴露服务 --&gt;&lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;  在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt;&lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt;&lt;!--url 直连dubbo服务不经过注册中心 --&gt;&lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;  " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://corso.netlify.com/post/dubbo-confg1/" />
 <meta property="article:published_time" content="2018-09-15T17:11:12+08:00" />
@@ -79,21 +79,21 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 <meta itemprop="description" content="dubbo常用配置 持续更新
 url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
  provider.xml
-1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt; &lt;!-- 使用dubbo协议在20880端口暴露服务 --&gt; &lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
-1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt; &lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt; &lt;!-- url 直连dubbo服务不经过注册中心 --&gt; &lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;   ">
+1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt;&lt;!--使用dubbo协议在20880端口暴露服务 --&gt;&lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;  在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt;&lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt;&lt;!--url 直连dubbo服务不经过注册中心 --&gt;&lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;  ">
 <meta itemprop="datePublished" content="2018-09-15T17:11:12&#43;08:00" />
 <meta itemprop="dateModified" content="2018-09-15T17:11:12&#43;08:00" />
-<meta itemprop="wordCount" content="58">
+<meta itemprop="wordCount" content="56">
 
 
 
-<meta itemprop="keywords" content="java,spring,dubbo," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="dubbo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="dubbo常用配置示例"/>
 <meta name="twitter:description" content="dubbo常用配置 持续更新
 url直连模式  开发过程中常常需要先本地调试自己的服务再注册到注册中心，debug可采用直连本地的方式（应该还有更好的方法）
  provider.xml
-1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt; &lt;!-- 使用dubbo协议在20880端口暴露服务 --&gt; &lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;   在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
-1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt; &lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt; &lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt; &lt;!-- url 直连dubbo服务不经过注册中心 --&gt; &lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;   "/>
+1 2 3 4  &lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt;&lt;!--使用dubbo协议在20880端口暴露服务 --&gt;&lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;  在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可
+1 2 3 4 5  &lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt;&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt;&lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt;&lt;!--url 直连dubbo服务不经过注册中心 --&gt;&lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;  "/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -342,9 +342,14 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
             <a href="https://corso.netlify.com/categories/%E5%AD%A6%E4%B9%A0/"> 学习 </a>
             
           </div>
-        
+        <span class="more-meta"> 约 56 字 </span>
+          <span class="more-meta"> 预计阅读 1 分钟 </span>
 
         
+        
+          <span id="busuanzi_container_page_pv">
+            | 阅读 <span id="busuanzi_value_page_pv"></span>
+          </span>
         
 
         
@@ -386,10 +391,10 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;!--使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper--&gt;
-&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; /&gt;
-&lt;!-- 使用dubbo协议在20880端口暴露服务 --&gt;
-&lt;dubbo:protocol name=&#34;dubbo&#34; port=&#34;20880&#34; /&gt;
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="c">&lt;!--</span><span class="c">使用 zookeeper 注册中心暴露服务，注意要先开启 zookeeper</span><span class="c">--&gt;</span>
+<span class="nt">&lt;dubbo:registry</span> <span class="na">address=</span><span class="s">&#34;zookeeper://localhost:2181&#34;</span> <span class="nt">/&gt;</span>
+<span class="c">&lt;!--</span><span class="c"> 使用dubbo协议在20880端口暴露服务 </span><span class="c">--&gt;</span>
+<span class="nt">&lt;dubbo:protocol</span> <span class="na">name=</span><span class="s">&#34;dubbo&#34;</span> <span class="na">port=</span><span class="s">&#34;20880&#34;</span> <span class="nt">/&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>在dubbo 20880暴露了服务，即在consumer.xml中通过url直连即可</p>
@@ -402,11 +407,11 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-fallback" data-lang="fallback">&lt;!--向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false --&gt;
-&lt;dubbo:registry address=&#34;zookeeper://localhost:2181&#34; register=&#34;false&#34;/&gt;
-&lt;!--使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id--&gt;
-&lt;!-- url 直连dubbo服务不经过注册中心 --&gt;
-&lt;dubbo:reference id=&#34;demoService&#34; interface=&#34;com.dubbo.api.DemoService&#34; url=&#34;dubbo://localhost:20880&#34;/&gt;
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="c">&lt;!--</span><span class="c">向 zookeeper 订阅 provider 的地址，由 zookeeper 定时推送 register 设置为false </span><span class="c">--&gt;</span>
+<span class="nt">&lt;dubbo:registry</span> <span class="na">address=</span><span class="s">&#34;zookeeper://localhost:2181&#34;</span> <span class="na">register=</span><span class="s">&#34;false&#34;</span><span class="nt">/&gt;</span>
+<span class="c">&lt;!--</span><span class="c">使用 dubbo 协议调用定义好的 demoService 接口 客户端引入的bean id</span><span class="c">--&gt;</span>
+<span class="c">&lt;!--</span><span class="c"> url 直连dubbo服务不经过注册中心 </span><span class="c">--&gt;</span>
+<span class="nt">&lt;dubbo:reference</span> <span class="na">id=</span><span class="s">&#34;demoService&#34;</span> <span class="na">interface=</span><span class="s">&#34;com.dubbo.api.DemoService&#34;</span> <span class="na">url=</span><span class="s">&#34;dubbo://localhost:20880&#34;</span><span class="nt">/&gt;</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -421,8 +426,6 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 
     <footer class="post-footer">
       <div class="post-tags">
-          <a href="https://corso.netlify.com/tags/java/">java</a>
-          <a href="https://corso.netlify.com/tags/spring/">spring</a>
           <a href="https://corso.netlify.com/tags/dubbo/">dubbo</a>
           
         </div>
@@ -431,8 +434,8 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
       <nav class="post-nav">
         
         
-          <a class="next" href="/post/opencv/">
-            <span class="next-text nav-default">javaCV 获取视频截图</span>
+          <a class="next" href="/post/orika/">
+            <span class="next-text nav-default">javaBean拷贝 --Orika简单使用</span>
             <span class="prev-text nav-mobile">下一篇</span>
             
             <i class="iconfont">
@@ -527,7 +530,7 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 
     </a>
   
-    <a href="https://corso.netlify.com/" rel="me noopener" class="iconfont"
+    <a href="https://corsoo.github.io/" rel="me noopener" class="iconfont"
       title="github"  target="_blank"
       >
       <svg class="icon" style="" viewBox="0 0 1024 1024" version="1.1"
@@ -581,6 +584,10 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 
   
   
+    <span id="busuanzi_container">
+      访客数/访问量：<span id="busuanzi_value_site_uv"></span>/<span id="busuanzi_value_site_pv"></span>
+    </span>
+  
 
   
 </div>
@@ -627,6 +634,8 @@ url直连模式  开发过程中常常需要先本地调试自己的服务再注
 
 
 
+
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
