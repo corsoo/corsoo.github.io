@@ -6,10 +6,20 @@
     <description>Recent content in java on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 21 May 2018 17:11:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Jun 2018 17:54:16 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>javaBean拷贝 --Orika简单使用</title>
+      <link>https://corso.netlify.com/post/orika/</link>
+      <pubDate>Tue, 26 Jun 2018 17:54:16 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/orika/</guid>
+      <description>Orika简单使用 项目中常常需要对象拷贝，Orika可避免getter、setter方法太多，代码臃肿，耗时等问题
+ maven依赖  1 2 3 4 5  &amp;lt;dependency&amp;gt;&amp;lt;groupId&amp;gt;ma.glasnost.orika&amp;lt;/groupId&amp;gt;&amp;lt;artifactId&amp;gt;orika-core&amp;lt;/artifactId&amp;gt;&amp;lt;version&amp;gt;1.5.2&amp;lt;/version&amp;gt;&amp;lt;/dependency&amp;gt;   javaBean 1 2 3 4 5 6 7  @Datapublic class A {private String name;private Integer age;}  1 2 3 4 5 6 7  @Datapublic class B {private String name;private Integer bAge;}  demo 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35  public class OrikaTest {public static void main(String[] args) {MapperFactory mapperFactory = new DefaultMapperFactory.</description>
+    </item>
     
     <item>
       <title>javaCV 获取视频截图</title>
