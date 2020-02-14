@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 13 Feb 2019 19:43:29 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 20:30:09 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>java</title>
+      <link>https://corso.netlify.com/tags/java/</link>
+      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rabbitMq</title>
+      <link>https://corso.netlify.com/tags/rabbitmq/</link>
+      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>
@@ -26,15 +44,6 @@
       <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
       
       <guid>https://corso.netlify.com/tags/dubbo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>java</title>
-      <link>https://corso.netlify.com/tags/java/</link>
-      <pubDate>Tue, 26 Jun 2018 17:54:16 +0800</pubDate>
-      
-      <guid>https://corso.netlify.com/tags/java/</guid>
       <description></description>
     </item>
     

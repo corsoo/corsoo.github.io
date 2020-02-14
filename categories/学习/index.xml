@@ -6,10 +6,19 @@
     <description>Recent content in 学习 on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Sep 2018 17:11:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 20:30:09 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/categories/%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mq Rabbitmq</title>
+      <link>https://corso.netlify.com/post/mq-rabbitmq/</link>
+      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/mq-rabbitmq/</guid>
+      <description>rabbitMq </description>
+    </item>
     
     <item>
       <title>dubbo常用配置示例</title>

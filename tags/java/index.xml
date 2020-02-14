@@ -6,10 +6,19 @@
     <description>Recent content in java on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 26 Jun 2018 17:54:16 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 13 Feb 2020 20:30:09 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mq Rabbitmq</title>
+      <link>https://corso.netlify.com/post/mq-rabbitmq/</link>
+      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/mq-rabbitmq/</guid>
+      <description>rabbitMq </description>
+    </item>
     
     <item>
       <title>javaBean拷贝 --Orika简单使用</title>
