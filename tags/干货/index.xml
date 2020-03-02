@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>干货 on Corso&#39;s blog</title>
+    <link>https://corso.netlify.com/tags/%E5%B9%B2%E8%B4%A7/</link>
+    <description>Recent content in 干货 on Corso&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 16 Feb 2019 12:07:03 +0800</lastBuildDate>
+    
+	<atom:link href="https://corso.netlify.com/tags/%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chrome 插件</title>
+      <link>https://corso.netlify.com/post/chrome/</link>
+      <pubDate>Sat, 16 Feb 2019 12:07:03 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/chrome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

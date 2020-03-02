@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MQ on Corso&#39;s blog</title>
+    <link>https://corso.netlify.com/tags/mq/</link>
+    <description>Recent content in MQ on Corso&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 17 Feb 2020 10:07:44 +0800</lastBuildDate>
+    
+	<atom:link href="https://corso.netlify.com/tags/mq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Springboot整合Rabbitmq</title>
+      <link>https://corso.netlify.com/post/mq-springboot-rabbitmq/</link>
+      <pubDate>Mon, 17 Feb 2020 10:07:44 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/mq-springboot-rabbitmq/</guid>
+      <description>springboot整合Rabbitmq 项目基础配置 pom.xml 引入依赖
+1 2 3 4  &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-amqp&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt;   application.yml
+1 2 3 4 5 6 7 8  spring:rabbitmq:host:127.0.0.1port:5672username:rootpassword:root#虚拟host 可以不设置virtual-host:\  rabbitMq配置 创建mq相关配置，创建RabbitConfig.java
+初始化连接池 1 2 3 4 5 6 7 8 9 10 11 12 13  private CachingConnectionFactory initConnectionFactory(String host, int port, String username, String password, String virtualHost, String connectName){ CachingConnectionFactory connectionFactory = new CachingConnectionFactory(); connectionFactory.setConnectionNameStrategy((c) -&amp;gt; connectName); connectionFactory.setHost(host); connectionFactory.setPort(port); connectionFactory.setUsername(username); connectionFactory.</description>
+    </item>
+    
+    <item>
+      <title>Kafka</title>
+      <link>https://corso.netlify.com/post/mq-kafka/</link>
+      <pubDate>Sat, 15 Feb 2020 20:55:12 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/mq-kafka/</guid>
+      <description>Kafka </description>
+    </item>
+    
+    <item>
+      <title>RabbitMq</title>
+      <link>https://corso.netlify.com/post/mq-rabbitmq/</link>
+      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/post/mq-rabbitmq/</guid>
+      <description>rabbitMq 官网</description>
+    </item>
+    
+  </channel>
+</rss>

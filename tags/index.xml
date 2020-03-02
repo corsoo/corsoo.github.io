@@ -6,53 +6,116 @@
     <description>Recent content in Tags on Corso&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 13 Feb 2020 20:30:09 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Feb 2020 10:07:44 +0800</lastBuildDate>
     
 	<atom:link href="https://corso.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>java</title>
-      <link>https://corso.netlify.com/tags/java/</link>
-      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      <title>MQ</title>
+      <link>https://corso.netlify.com/tags/mq/</link>
+      <pubDate>Mon, 17 Feb 2020 10:07:44 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/tags/java/</guid>
+      <guid>https://corso.netlify.com/tags/mq/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rabbitMq</title>
-      <link>https://corso.netlify.com/tags/rabbitmq/</link>
-      <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
+      <title>其他</title>
+      <link>https://corso.netlify.com/tags/%E5%85%B6%E4%BB%96/</link>
+      <pubDate>Sun, 16 Feb 2020 12:39:07 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/tags/rabbitmq/</guid>
+      <guid>https://corso.netlify.com/tags/%E5%85%B6%E4%BB%96/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://corso.netlify.com/tags/hugo/</link>
-      <pubDate>Wed, 13 Feb 2019 19:43:29 +0800</pubDate>
+      <title>redis</title>
+      <link>https://corso.netlify.com/tags/redis/</link>
+      <pubDate>Tue, 10 Sep 2019 12:02:02 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/tags/hugo/</guid>
+      <guid>https://corso.netlify.com/tags/redis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mongo</title>
+      <link>https://corso.netlify.com/tags/mongo/</link>
+      <pubDate>Sat, 10 Aug 2019 12:02:27 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mySQL</title>
+      <link>https://corso.netlify.com/tags/mysql/</link>
+      <pubDate>Sat, 06 Jul 2019 12:01:51 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>https://corso.netlify.com/tags/git/</link>
+      <pubDate>Tue, 05 Mar 2019 12:06:50 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>干货</title>
+      <link>https://corso.netlify.com/tags/%E5%B9%B2%E8%B4%A7/</link>
+      <pubDate>Sat, 16 Feb 2019 12:07:03 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/%E5%B9%B2%E8%B4%A7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://corso.netlify.com/tags/linux/</link>
+      <pubDate>Thu, 15 Nov 2018 21:35:40 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java-tools</title>
+      <link>https://corso.netlify.com/tags/java-tools/</link>
+      <pubDate>Tue, 26 Jun 2018 17:54:16 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/java-tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IDEA</title>
+      <link>https://corso.netlify.com/tags/idea/</link>
+      <pubDate>Sat, 16 Jun 2018 12:35:26 +0800</pubDate>
+      
+      <guid>https://corso.netlify.com/tags/idea/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dubbo</title>
       <link>https://corso.netlify.com/tags/dubbo/</link>
-      <pubDate>Sat, 15 Sep 2018 17:11:12 +0800</pubDate>
+      <pubDate>Fri, 15 Jun 2018 17:11:12 +0800</pubDate>
       
       <guid>https://corso.netlify.com/tags/dubbo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>javaCV</title>
-      <link>https://corso.netlify.com/tags/javacv/</link>
-      <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
+      <title>hugo</title>
+      <link>https://corso.netlify.com/tags/hugo/</link>
+      <pubDate>Sun, 13 May 2018 19:43:29 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/tags/javacv/</guid>
+      <guid>https://corso.netlify.com/tags/hugo/</guid>
       <description></description>
     </item>
     

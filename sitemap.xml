@@ -10,48 +10,76 @@
   
   <url>
     <loc>https://corso.netlify.com/categories/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/java/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://corso.netlify.com/post/mq-rabbitmq/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
+    <loc>https://corso.netlify.com/tags/mq/</loc>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/post/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/rabbitmq/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
+    <loc>https://corso.netlify.com/post/mq-springboot-rabbitmq/</loc>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://corso.netlify.com/tags/</loc>
-    <lastmod>2020-02-13T20:30:09+08:00</lastmod>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/categories/%E5%AD%A6%E4%B9%A0/</loc>
+    <loc>https://corso.netlify.com/categories/%E4%B8%AD%E9%97%B4%E4%BB%B6/</loc>
+    <lastmod>2020-02-17T10:07:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/life/</loc>
+    <lastmod>2020-02-16T12:39:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/%E5%85%B6%E4%BB%96/</loc>
+    <lastmod>2020-02-16T12:39:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <lastmod>2020-02-16T12:39:07+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/mq-kafka/</loc>
+    <lastmod>2020-02-15T20:55:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/mq-rabbitmq/</loc>
     <lastmod>2020-02-13T20:30:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -65,29 +93,120 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/hugo/</loc>
-    <lastmod>2019-02-13T19:43:29+08:00</lastmod>
+    <loc>https://corso.netlify.com/post/redis/</loc>
+    <lastmod>2019-09-10T12:02:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/hugoconfig/</loc>
-    <lastmod>2019-02-13T19:43:29+08:00</lastmod>
+    <loc>https://corso.netlify.com/tags/redis/</loc>
+    <lastmod>2019-09-10T12:02:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/dubbo/</loc>
-    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
+    <loc>https://corso.netlify.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2019-09-10T12:02:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/dubbo-confg1/</loc>
-    <lastmod>2018-09-15T17:11:12+08:00</lastmod>
+    <loc>https://corso.netlify.com/tags/mongo/</loc>
+    <lastmod>2019-08-10T12:02:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/mongodb/</loc>
+    <lastmod>2019-08-10T12:02:27+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/mysql/</loc>
+    <lastmod>2019-07-06T12:01:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/mysql/</loc>
+    <lastmod>2019-07-06T12:01:51+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/git/</loc>
+    <lastmod>2019-03-05T12:06:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/git/</loc>
+    <lastmod>2019-03-05T12:06:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2019-03-05T12:06:50+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/chrome/</loc>
+    <lastmod>2019-02-16T12:07:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/%E5%B9%B2%E8%B4%A7/</loc>
+    <lastmod>2019-02-16T12:07:03+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/categories/linux/</loc>
+    <lastmod>2018-11-15T21:35:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/linux/</loc>
+    <lastmod>2018-11-15T21:35:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/linux/</loc>
+    <lastmod>2018-11-15T21:35:40+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/categories/java/</loc>
+    <lastmod>2018-06-26T17:54:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/java-tools/</loc>
+    <lastmod>2018-06-26T17:54:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -100,8 +219,29 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/tags/javacv/</loc>
-    <lastmod>2018-05-21T17:11:12+08:00</lastmod>
+    <loc>https://corso.netlify.com/tags/idea/</loc>
+    <lastmod>2018-06-16T12:35:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/idea/</loc>
+    <lastmod>2018-06-16T12:35:26+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/dubbo/</loc>
+    <lastmod>2018-06-15T17:11:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/dubbo-confg1/</loc>
+    <lastmod>2018-06-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -116,6 +256,20 @@
   <url>
     <loc>https://corso.netlify.com/post/dubbo-demo/</loc>
     <lastmod>2018-05-19T12:31:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/tags/hugo/</loc>
+    <lastmod>2018-05-13T19:43:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://corso.netlify.com/post/hugoconfig/</loc>
+    <lastmod>2018-05-13T19:43:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

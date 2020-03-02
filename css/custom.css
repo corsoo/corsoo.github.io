@@ -206,6 +206,17 @@ ol.commentlist .avatar {
 /*     padding: 0; */
 /*     display: inline-block; */
 /* } */
+
+.archive , .post{
+  margin: 0 5em 1em 5em;
+  padding: 1em 5em 1em 5em;
+}
+
+/*.post {
+  margin: 0 5em 1em 5em;
+  padding: 1em 5em 1em 5em;
+}*/
+
 .archive .archive-post {
   padding: 2px 0px 0px;
   border-bottom: none;
