@@ -17,7 +17,7 @@
       <pubDate>Tue, 05 Mar 2019 12:06:50 +0800</pubDate>
       
       <guid>https://corso.netlify.com/post/tools/git/</guid>
-      <description></description>
+      <description> 删除远程文件  1 2 3  git rm -r --cached test // --cached不删除本地test git commit -m &amp;#39;delete test dir&amp;#39; git push -u origin master   </description>
     </item>
     
   </channel>
