@@ -13,10 +13,10 @@
     
     <item>
       <title>Hugo 常用命令</title>
-      <link>https://corso.netlify.com/post/hugoconfig/</link>
+      <link>https://corso.netlify.com/post/tools/hugoconfig/</link>
       <pubDate>Sun, 13 May 2018 19:43:29 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/hugoconfig/</guid>
+      <guid>https://corso.netlify.com/post/tools/hugoconfig/</guid>
       <description>hugo 常用命令 官网 中文文档
  生成站点 hugo new site mysite 创建文章 hugo new post/first.md 运行Hugo hugo server --theme=jane --buildDrafts 部署 hugo --theme=jane --buildDrafts --baseUrl=&amp;quot;https://corso.netlify.com/&amp;quot;  </description>
     </item>

@@ -42,10 +42,10 @@
     
     <item>
       <title>Springboot整合Rabbitmq</title>
-      <link>https://corso.netlify.com/post/mq-springboot-rabbitmq/</link>
+      <link>https://corso.netlify.com/post/spring/mq-springboot-rabbitmq/</link>
       <pubDate>Mon, 17 Feb 2020 10:07:44 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-springboot-rabbitmq/</guid>
+      <guid>https://corso.netlify.com/post/spring/mq-springboot-rabbitmq/</guid>
       
         <description>&lt;h2 id=&#34;springboot整合rabbitmq&#34;&gt;springboot整合Rabbitmq&lt;/h2&gt;
 &lt;h3 id=&#34;项目基础配置&#34;&gt;项目基础配置&lt;/h3&gt;
@@ -326,10 +326,10 @@
     
     <item>
       <title>Life</title>
-      <link>https://corso.netlify.com/post/life/</link>
+      <link>https://corso.netlify.com/post/life/life/</link>
       <pubDate>Sun, 16 Feb 2020 12:39:07 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/life/</guid>
+      <guid>https://corso.netlify.com/post/life/life/</guid>
       
         <description></description>
       
@@ -337,10 +337,10 @@
     
     <item>
       <title>Kafka</title>
-      <link>https://corso.netlify.com/post/mq-kafka/</link>
+      <link>https://corso.netlify.com/post/mq/mq-kafka/</link>
       <pubDate>Sat, 15 Feb 2020 20:55:12 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-kafka/</guid>
+      <guid>https://corso.netlify.com/post/mq/mq-kafka/</guid>
       
         <description>&lt;h1 id=&#34;kafka&#34;&gt;Kafka&lt;/h1&gt;
 </description>
@@ -349,10 +349,10 @@
     
     <item>
       <title>RabbitMq</title>
-      <link>https://corso.netlify.com/post/mq-rabbitmq/</link>
+      <link>https://corso.netlify.com/post/mq/mq-rabbitmq/</link>
       <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-rabbitmq/</guid>
+      <guid>https://corso.netlify.com/post/mq/mq-rabbitmq/</guid>
       
         <description>&lt;h2 id=&#34;rabbitmq&#34;&gt;rabbitMq&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.rabbitmq.com/&#34;&gt;官网&lt;/a&gt;&lt;/p&gt;
@@ -362,10 +362,10 @@
     
     <item>
       <title>Redis</title>
-      <link>https://corso.netlify.com/post/redis/</link>
+      <link>https://corso.netlify.com/post/redis/redis/</link>
       <pubDate>Tue, 10 Sep 2019 12:02:02 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/redis/</guid>
+      <guid>https://corso.netlify.com/post/redis/redis/</guid>
       
         <description></description>
       
@@ -373,10 +373,10 @@
     
     <item>
       <title>MongoDb</title>
-      <link>https://corso.netlify.com/post/mongodb/</link>
+      <link>https://corso.netlify.com/post/mongo/mongodb/</link>
       <pubDate>Sat, 10 Aug 2019 12:02:27 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mongodb/</guid>
+      <guid>https://corso.netlify.com/post/mongo/mongodb/</guid>
       
         <description></description>
       
@@ -384,10 +384,10 @@
     
     <item>
       <title>MySQL</title>
-      <link>https://corso.netlify.com/post/mysql/</link>
+      <link>https://corso.netlify.com/post/mysql/mysql/</link>
       <pubDate>Sat, 06 Jul 2019 12:01:51 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mysql/</guid>
+      <guid>https://corso.netlify.com/post/mysql/mysql/</guid>
       
         <description></description>
       
@@ -395,10 +395,10 @@
     
     <item>
       <title>Git</title>
-      <link>https://corso.netlify.com/post/git/</link>
+      <link>https://corso.netlify.com/post/tools/git/</link>
       <pubDate>Tue, 05 Mar 2019 12:06:50 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/git/</guid>
+      <guid>https://corso.netlify.com/post/tools/git/</guid>
       
         <description></description>
       
@@ -406,10 +406,10 @@
     
     <item>
       <title>Chrome 插件</title>
-      <link>https://corso.netlify.com/post/chrome/</link>
+      <link>https://corso.netlify.com/post/tools/chrome/</link>
       <pubDate>Sat, 16 Feb 2019 12:07:03 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/chrome/</guid>
+      <guid>https://corso.netlify.com/post/tools/chrome/</guid>
       
         <description></description>
       
@@ -417,10 +417,10 @@
     
     <item>
       <title>Linux常用命令</title>
-      <link>https://corso.netlify.com/post/linux/</link>
+      <link>https://corso.netlify.com/post/linux/linux/</link>
       <pubDate>Thu, 15 Nov 2018 21:35:40 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/linux/</guid>
+      <guid>https://corso.netlify.com/post/linux/linux/</guid>
       
         <description>&lt;h2 id=&#34;linux常用命令&#34;&gt;Linux常用命令&lt;/h2&gt;
 &lt;ul&gt;
@@ -512,10 +512,10 @@ skip-character-set-client-handshake
     
     <item>
       <title>javaBean拷贝 --Orika简单使用</title>
-      <link>https://corso.netlify.com/post/orika/</link>
+      <link>https://corso.netlify.com/post/java/orika/</link>
       <pubDate>Tue, 26 Jun 2018 17:54:16 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/orika/</guid>
+      <guid>https://corso.netlify.com/post/java/orika/</guid>
       
         <description>&lt;h1 id=&#34;orika简单使用&#34;&gt;Orika简单使用&lt;/h1&gt;
 &lt;p&gt;项目中常常需要对象拷贝，Orika可避免getter、setter方法太多，代码臃肿，耗时等问题&lt;/p&gt;
@@ -683,10 +683,10 @@ skip-character-set-client-handshake
     
     <item>
       <title>IDEA</title>
-      <link>https://corso.netlify.com/post/idea/</link>
+      <link>https://corso.netlify.com/post/tools/idea/</link>
       <pubDate>Sat, 16 Jun 2018 12:35:26 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/idea/</guid>
+      <guid>https://corso.netlify.com/post/tools/idea/</guid>
       
         <description></description>
       
@@ -694,10 +694,10 @@ skip-character-set-client-handshake
     
     <item>
       <title>dubbo常用配置示例</title>
-      <link>https://corso.netlify.com/post/dubbo-confg1/</link>
+      <link>https://corso.netlify.com/post/dubbo/dubbo-confg1/</link>
       <pubDate>Fri, 15 Jun 2018 17:11:12 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/dubbo-confg1/</guid>
+      <guid>https://corso.netlify.com/post/dubbo/dubbo-confg1/</guid>
       
         <description>&lt;h1 id=&#34;dubbo常用配置&#34;&gt;dubbo常用配置&lt;/h1&gt;
 &lt;p&gt;持续更新&lt;/p&gt;
@@ -743,10 +743,10 @@ skip-character-set-client-handshake
     
     <item>
       <title>javaCV 获取视频截图</title>
-      <link>https://corso.netlify.com/post/opencv/</link>
+      <link>https://corso.netlify.com/post/java/opencv/</link>
       <pubDate>Mon, 21 May 2018 17:11:12 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/opencv/</guid>
+      <guid>https://corso.netlify.com/post/java/opencv/</guid>
       
         <description>&lt;h1 id=&#34;获取视频截图--javacv&#34;&gt;获取视频截图&amp;ndash;javacv&lt;/h1&gt;
 &lt;p&gt;之前在相关文章评论过，有人问我当中遇到的问题，所以写出来&lt;/p&gt;
@@ -858,10 +858,10 @@ Caused by: java.lang.UnsatisfiedLinkError: /tmp/javacpp777320859500247/[图片]l
     
     <item>
       <title>Dubbo Demo</title>
-      <link>https://corso.netlify.com/post/dubbo-demo/</link>
+      <link>https://corso.netlify.com/post/dubbo/dubbo-demo/</link>
       <pubDate>Sat, 19 May 2018 12:31:39 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/dubbo-demo/</guid>
+      <guid>https://corso.netlify.com/post/dubbo/dubbo-demo/</guid>
       
         <description>&lt;h1 id=&#34;dubbodemo示例&#34;&gt;dubboDemo示例&lt;/h1&gt;
 &lt;p&gt;dubbo入门示例，仅是个人日常学习。详情见：&lt;a href=&#34;http://dubbo.io&#34;&gt;dubbo.io&lt;/a&gt;&lt;/p&gt;
@@ -1231,10 +1231,10 @@ Caused by: java.lang.UnsatisfiedLinkError: /tmp/javacpp777320859500247/[图片]l
     
     <item>
       <title>Hugo 常用命令</title>
-      <link>https://corso.netlify.com/post/hugoconfig/</link>
+      <link>https://corso.netlify.com/post/tools/hugoconfig/</link>
       <pubDate>Sun, 13 May 2018 19:43:29 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/hugoconfig/</guid>
+      <guid>https://corso.netlify.com/post/tools/hugoconfig/</guid>
       
         <description>&lt;h1 id=&#34;hugo-常用命令&#34;&gt;hugo 常用命令&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://gohugo.io/&#34;&gt;官网&lt;/a&gt;  &lt;a href=&#34;https://www.gohugo.org/&#34;&gt;中文文档&lt;/a&gt;&lt;/p&gt;

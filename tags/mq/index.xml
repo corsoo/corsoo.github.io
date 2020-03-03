@@ -13,10 +13,10 @@
     
     <item>
       <title>Springboot整合Rabbitmq</title>
-      <link>https://corso.netlify.com/post/mq-springboot-rabbitmq/</link>
+      <link>https://corso.netlify.com/post/spring/mq-springboot-rabbitmq/</link>
       <pubDate>Mon, 17 Feb 2020 10:07:44 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-springboot-rabbitmq/</guid>
+      <guid>https://corso.netlify.com/post/spring/mq-springboot-rabbitmq/</guid>
       <description>springboot整合Rabbitmq 项目基础配置 pom.xml 引入依赖
 1 2 3 4  &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.springframework.boot&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;spring-boot-starter-amqp&amp;lt;/artifactId&amp;gt; &amp;lt;/dependency&amp;gt;   application.yml
 1 2 3 4 5 6 7 8  spring:rabbitmq:host:127.0.0.1port:5672username:rootpassword:root#虚拟host 可以不设置virtual-host:\  rabbitMq配置 创建mq相关配置，创建RabbitConfig.java
@@ -25,19 +25,19 @@
     
     <item>
       <title>Kafka</title>
-      <link>https://corso.netlify.com/post/mq-kafka/</link>
+      <link>https://corso.netlify.com/post/mq/mq-kafka/</link>
       <pubDate>Sat, 15 Feb 2020 20:55:12 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-kafka/</guid>
+      <guid>https://corso.netlify.com/post/mq/mq-kafka/</guid>
       <description>Kafka </description>
     </item>
     
     <item>
       <title>RabbitMq</title>
-      <link>https://corso.netlify.com/post/mq-rabbitmq/</link>
+      <link>https://corso.netlify.com/post/mq/mq-rabbitmq/</link>
       <pubDate>Thu, 13 Feb 2020 20:30:09 +0800</pubDate>
       
-      <guid>https://corso.netlify.com/post/mq-rabbitmq/</guid>
+      <guid>https://corso.netlify.com/post/mq/mq-rabbitmq/</guid>
       <description>rabbitMq 官网</description>
     </item>
     

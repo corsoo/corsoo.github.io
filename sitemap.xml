@@ -30,7 +30,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/mq-springboot-rabbitmq/</loc>
+    <loc>https://corso.netlify.com/post/spring/mq-springboot-rabbitmq/</loc>
     <lastmod>2020-02-17T10:07:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/life/</loc>
+    <loc>https://corso.netlify.com/post/life/life/</loc>
     <lastmod>2020-02-16T12:39:07+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -72,14 +72,14 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/mq-kafka/</loc>
+    <loc>https://corso.netlify.com/post/mq/mq-kafka/</loc>
     <lastmod>2020-02-15T20:55:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/mq-rabbitmq/</loc>
+    <loc>https://corso.netlify.com/post/mq/mq-rabbitmq/</loc>
     <lastmod>2020-02-13T20:30:09+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/redis/</loc>
+    <loc>https://corso.netlify.com/post/redis/redis/</loc>
     <lastmod>2019-09-10T12:02:02+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -121,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/mongodb/</loc>
+    <loc>https://corso.netlify.com/post/mongo/mongodb/</loc>
     <lastmod>2019-08-10T12:02:27+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/mysql/</loc>
+    <loc>https://corso.netlify.com/post/mysql/mysql/</loc>
     <lastmod>2019-07-06T12:01:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -142,7 +142,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/git/</loc>
+    <loc>https://corso.netlify.com/post/tools/git/</loc>
     <lastmod>2019-03-05T12:06:50+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -163,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/chrome/</loc>
+    <loc>https://corso.netlify.com/post/tools/chrome/</loc>
     <lastmod>2019-02-16T12:07:03+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -191,7 +191,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/linux/</loc>
+    <loc>https://corso.netlify.com/post/linux/linux/</loc>
     <lastmod>2018-11-15T21:35:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -212,7 +212,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/orika/</loc>
+    <loc>https://corso.netlify.com/post/java/orika/</loc>
     <lastmod>2018-06-26T17:54:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -226,7 +226,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/idea/</loc>
+    <loc>https://corso.netlify.com/post/tools/idea/</loc>
     <lastmod>2018-06-16T12:35:26+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -240,21 +240,21 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/dubbo-confg1/</loc>
+    <loc>https://corso.netlify.com/post/dubbo/dubbo-confg1/</loc>
     <lastmod>2018-06-15T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/opencv/</loc>
+    <loc>https://corso.netlify.com/post/java/opencv/</loc>
     <lastmod>2018-05-21T17:11:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/dubbo-demo/</loc>
+    <loc>https://corso.netlify.com/post/dubbo/dubbo-demo/</loc>
     <lastmod>2018-05-19T12:31:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -268,7 +268,7 @@
   </url>
   
   <url>
-    <loc>https://corso.netlify.com/post/hugoconfig/</loc>
+    <loc>https://corso.netlify.com/post/tools/hugoconfig/</loc>
     <lastmod>2018-05-13T19:43:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
